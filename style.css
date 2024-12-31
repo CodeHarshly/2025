@@ -390,7 +390,7 @@ span.four{
     }
     .word{
         padding: 30px;
-        font-size: 60px;
+        font-size: 65px;
         top: 40%;
         background-image: linear-gradient(to right, #fcf003 10%, #00ff00 50%, #fcf003 90%);
     }
@@ -402,7 +402,7 @@ span.four{
         font-size: 100px;
     }
     span.three{
-        top: 55%;
+        top: 55.15%;
         right: 77%;
     }
     .ball{
