@@ -30,7 +30,7 @@ a{
     color: grey;
 }
 span{
-    color: #ff5000;
+    color: #00ff00;
 }
 .topImg{
     position: relative;
@@ -53,7 +53,7 @@ span{
     font-family: 'Pacifico', cursive;
     font-size: 120px;
     font-weight: 700;
-    background-image: linear-gradient(to right, #ff9000 0%, #ff0000 50%, #ff9000 100%);
+    background-image: linear-gradient(to right, #fcf003 20%, #00ff00 50%, #fcf003 80%);
     -webkit-background-clip: text;
     color: transparent;
     display: inline-block;
@@ -80,7 +80,7 @@ span{
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-size: 175px;
     font-weight: 700;
-    background-image: linear-gradient(to right, #ff8a00 0%, #e52e71 100%);
+    background-image: linear-gradient(to right, #fcf003 10%, #00ff00 50%, #fcf003 90%);
     -webkit-background-clip: text;
     color: transparent;
     display: inline-block;
@@ -90,7 +90,7 @@ span.three{
     position: absolute;
     top: 50%;
     right: 50%;
-    background-image: linear-gradient(to right, #e52e71 0%, #ff8a00 100%);
+    background-image: linear-gradient(to right, #fcf003 0%, #00ff00 100%);
     -webkit-background-clip: text;
     color: transparent;
     display: inline-block;
@@ -101,62 +101,23 @@ span.four{
     position: absolute;
     right: 0%;
     margin-right: -200px;
-    background-image: linear-gradient(to right, #e52e71 0%, #e52e71 100%);
+    background-image: linear-gradient(to right, #fcf003 0%, #e52e71 100%);
     -webkit-background-clip: text;
     color: transparent;
     display: inline-block;
     animation: slide_7 6s ease-in-out forwards;
 }
 
-.ball1{
-    width: 100px;
-    height: 100px;
-    display: block;
-    background-image: linear-gradient(to top, #ff7000 0%, #ff5000 50%, #ff3000 70%, #ff0000 100%);
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    margin-top: -165px;
-    right: 0%;
-    margin-right: -200px;
-    animation: slideball 10s ease-in-out forwards;
-}
 .ball img{
     width: 100px;
     display: block;
     position: absolute;
-    top: 50%;
+    top: 44%;
     margin-top: -165px;
     right: 0%;
     margin-right: -200px;
     z-index: -1;
     animation: slideball 10s ease-in-out forwards;
-}
-.ball1:before{
-    content: '';
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 10px 20px 10px;
-    border-color: transparent transparent #ff0000 transparent;
-    position: absolute;
-    left: 50%;
-    margin-left: -10px;
-    bottom: -10px;
-    z-index: -1;
-}
-.ball1:after{
-    content: '';
-    width: 4px;
-    height: 100px;
-    display: block;
-    background: #a0a0a0;
-    border-radius: 0px 0px 3px 3px;
-    position: absolute;
-    left: 50%;
-    margin-left: -2px;
-    bottom: -110px;
-    z-index: -1;
 }
 .wishme{
     width: 100%;
@@ -180,7 +141,7 @@ span.four{
     height: 35px;
     color: white;
     border-radius: 10px;
-    background: red;
+    background: #03fc62;
     font-size: 18px;
     font-weight: bold;
     filter: drop-shadow(1px 1px 1px white);
@@ -395,6 +356,7 @@ span.four{
 }
 @keyframes slideball {
     0% {
+        top: 44%;
         right: 0%;
     }
     40% {
@@ -404,7 +366,7 @@ span.four{
     50% {
         right: 50%;
         margin-right: -200px;
-        top: 50%;
+        top: 44%;
     }
     100% {
         top: -100%;
@@ -430,6 +392,7 @@ span.four{
         padding: 30px;
         font-size: 80px;
         top: 40%;
+        background-image: linear-gradient(to right, #fcf003 10%, #00ff00 50%, #fcf003 90%);
     }
     .number{
         left: 5%;
@@ -443,7 +406,7 @@ span.four{
         right: 77%;
     }
     .ball{
-        top: 50%;
+        top: 48%;
     }
     .contact form{
         width: 90%;
@@ -469,6 +432,7 @@ span.four{
     }
     @keyframes slideball {
         0% {
+            top:48%;
             right: 0%;
         }
         40% {
@@ -478,7 +442,7 @@ span.four{
         50% {
             right: 77%;
             margin-right: -220px;
-            top: 50%;
+            top: 48%;
         }
         100% {
             top: -100%;
