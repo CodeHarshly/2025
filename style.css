@@ -381,7 +381,7 @@ span.four{
         top: -100%;
     }
 }
-@media (max-width: 770px) {
+@media (max-width: 850px) {
     html{
         font-size: 50%;
     }
@@ -390,7 +390,7 @@ span.four{
     }
     .word{
         padding: 30px;
-        font-size: 70px;
+        font-size: 60px;
         top: 40%;
         background-image: linear-gradient(to right, #fcf003 10%, #00ff00 50%, #fcf003 90%);
     }
@@ -402,7 +402,7 @@ span.four{
         font-size: 100px;
     }
     span.three{
-        top: 55.15%;
+        top: 55%;
         right: 77%;
     }
     .ball{
