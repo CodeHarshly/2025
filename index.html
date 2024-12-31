@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy New Year</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="jquery.fireworks.js"></script>
+  <link rel="stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  
+  <div class="wishme">
+    <p><span>Harshdeep</span> Singh</p><a href="#wishme"><button>Wish Me</button></a>
+  </div>
+  <div class="scrolldown">
+    <div class="icon"><i class="fa-solid fa-arrow-down"></i></div></i><p>Scroll<br>Down</p>
+  </div>
+  <div class="background">
+    <div id="example" align="center">
+  </div></div>
+  <div class="topImg">
+    <img src="images/dec1.png" alt="">
+  </div>
+
+  <div class="word">Happy new year</div>
+  <div class="number">
+    <span>202</span>
+    <span class="three">4</span>
+    <span class="four">5</span>
+    <div class="ball">
+      <img src="images/balloon1-removebg-preview.png" alt="">
+    </div>
+    <!--div class="ball"></div-->
+  </div>
+  <div class="container">
+    <div class="wish-box">
+      <p>
+        <span>Zindagi</span> ki kitaab mein ek <span>naya saffa</span> likha hai,<br>
+        Naye <span>saal</span> ki dastak par, kuch khaas <span>khwab</span> bikhra hai.<br>
+        <span>Dil</span> se dua hai, har <span>pal</span> ho sangeet se bhara,<br>
+        <span>2024</span> ho aapke liye <span>prem</span>, <span>pyara</span>, aur <span>khushiyo</span> se bhara. 🌟💖<br>
+      </p>
+    </div>
+    <div class="wish-box">
+      <p>
+        As we step into the dawn of <span>2024</span>, may the <span>warmth</span> of this <span>New Year</span> extend beyond your doorstep, embracing your <span>family</span>, <span>friends</span>, and <span>everyone</span> dear to you. <span>Wishing you</span> moments of togetherness that become <span>cherished memories</span>, <span>laughter</span> that echoes through the corridors of your home, and <span>bonds</span> that only strengthen with time.
+      </p>
+    </div>
+    <div class="wish-box">
+      <p>
+        On this threshold of a <span>new beginning</span>, let's leave behind the <span>burdens</span> of the past. If there are lingering shadows of <span>mistakes</span> and <span>wrongs</span>, I extend my <span>heartfelt apologies</span>. Here's to a fresh start, wiping the slate clean, and embracing the <span>promise</span> of a brighter future together.
+      </p>
+    </div>
+    <div class="wish-box">
+      <p>
+        May the coming <span>year</span> be a shared <span>journey</span> with those you hold close, filled with shared <span>joys</span> and shared <span>triumphs</span>. Here's to the collective tapestry of <span>love</span> and <span>unity</span>, weaving through the fabric of your <span>family</span>, connecting with <span>friends</span>, and forming a <span>rich mosaic</span> of shared experiences.
+      </p>
+    </div>
+    <div class="wish-box">
+      <p>
+        May your gatherings be filled with <span>warmth</span>, your conversations be sprinkled with <span>laughter</span>, and your shared <span>dreams</span> become vibrant realities. As the clock strikes midnight, sending ripples of hope into the universe, may these <span>wishes</span> resonate not just with you but with every <span>soul</span> touched by your presence.
+      </p>
+    </div>
+    <div class="wish-box">
+      <p>
+        <span>Happy New Year</span> to you and your extended <span>family</span>, <span>friends</span>, and all those who add color to the canvas of your life! May the collective journey ahead be filled with <span>joy</span>, <span>love</span>, and shared prosperity. Cheers to a wonderful <span>2024</span> for all!
+      </p>
+    </div>
+    <div class="contact" id="wishme">
+      <h2>Wish <span>me</span> here</h2>
+      <form action="https://formspree.io/f/mgegeoqk" method="POST" id="newyearform">
+        <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message" id="resizableTextarea" oninput="autoResize(this)" required></textarea>
+        <div class="input-box">
+          <input class="input-box1" name="Name" type="text" placeholder="Plz write Your Name🥺" required>
+          <input type="submit" value="Send Message" class="btn">
+        </div>
+      </form>
+      <div class="contact-me">
+        <h2>Contact <span>Me</span></h2>
+        <a href="https://CodeHarshly.github.io/portfolio/" target="_blank"  class="btn">
+           <img src="images/harshdeeppppp.jpg" alt="">
+        </a>
+        <a href="mailto:harshdeepsinghchoudhary@gmail.com" target="_blank"  class="btn">
+          <img src="images/mail.png" alt="">
+        </a>
+        <a href="https://github.com/CodeHarshly/" target="_blank" class="btn">
+          <img src="images/github.png" alt="">
+        </a>
+        <a href="https://www.linkedin.com/in/harshdeep-singh-769552253" target="_blank" class="btn">
+          <img src="images/link.png" alt="">
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100028867681616&mibextid=haYZDX" target="_blank" class="btn">
+          <img src="images/facebook.png" alt="">
+        </a>
+      </div>
+      <div>
+        <p class="copyright">© 2023 All Rights Reserved | Harshdeep Singh</p>
+    </div>
+    </div>
+  </div>
+
+  <script>
+    function autoResize(textarea) {
+      // Set the textarea height to its scrollHeight
+      textarea.style.height = '100px';
+      textarea.style.height = (textarea.scrollHeight) + 'px';
+    }
+    window.addEventListener("scroll", function () {
+        const pElement  = document.querySelector(".scrolldown");
+        const scrollPos = window.scrollY;
+        const scrollThreshold = 100;
+
+        if (scrollPos > scrollThreshold) {
+            pElement.style.display = 'none';
+        }
+    });
+  </script>
+
+</body>
+</html>
